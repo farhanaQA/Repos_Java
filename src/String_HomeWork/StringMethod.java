@@ -70,11 +70,6 @@ public class StringMethod {
         //4.Does name 2nd position,start with "A"
         System.out.println("4.Does name 2nd postion start with  A : "+friendNames[2].startsWith("A"));
 
-       int div=10/2;
-        System.out.println(div);
-
-        int di=10%2;
-        System.out.println(di);
 
     }
 }
