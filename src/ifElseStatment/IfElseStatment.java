@@ -33,7 +33,7 @@ public class IfElseStatment {
         System.out.println("No 2.Driver Controller ");
         char mode = 'D';
         String parkingType = "parallel";
-        if (mode == 'p' && parkingType == "parallel") {
+        if (mode == 'p' && parkingType.equals("parallel")) {
             System.out.println("I am on " + mode + " mode and can park " + parkingType + " between two car:");
         } else if (mode == 'D' ) {
 
@@ -42,7 +42,7 @@ public class IfElseStatment {
         } else if (mode == 'N') {
             System.out.println("I am on " + mode + " mode i can put car in car wash station:"+"\n");
         }
-          else if (mode == 'R' && parkingType == "reverse") {
+          else if (mode == 'R' && parkingType.equals("reverse")) {
             System.out.println("I am on " + mode + " mode and parking type is " + parkingType + " and car will activate back camera");
         }
           else {
