@@ -23,13 +23,15 @@ public class StringMethod {
 
         System.out.println("Task no 2");
         //1.Store your name in a String variable.
-        String myName="Farhana";
+        String myName="Farhana Bushra";
+        String[] nameWord=myName.split(" ");
         System.out.println("1.Store your in a String Variable Name: "+myName);
 
         //Calculate the length of your name,without length() method of String class
-        System.out.println("2.Calculate the length of your name,without length() method: "+myName.codePointCount(0,7));
+        System.out.println("2.Calculate the length of your name (include space) ,without length() method : "+myName.lastIndexOf(""));
+        System.out.println("calculate the length of your name without any space "+nameWord.length);
 
-        System.out.println();
+
         System.out.println("Task No 3 ");
         //String[] names={"Mohammad","John","Ferdous","Abul","Ratna","Mareeha","Ruslan","Himani";
         System.out.println("1.Strings []names={\"Mohammad\",\"John\",\"ferdous\",\"Abul\",\"Ratna\",\"Mahreeha\",\"Ruslan\",\"Himani\"}");
@@ -44,7 +46,7 @@ public class StringMethod {
         names[7]="Himani";
 
         //verify if "JOHN" is present at index 1.
-        System.out.println("2.Verify if JOHN is present at index 1: "+("JOHN".contains(names[1])));
+        System.out.println("2.Verify if JOHN is present at index 1: "+(names[1]).equalsIgnoreCase("JOHN"));
 
         System.out.println();
 

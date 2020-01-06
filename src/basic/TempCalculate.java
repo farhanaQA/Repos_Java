@@ -8,8 +8,8 @@ public class TempCalculate {
         //calculate celsius and store in celsius variable
         //T(°C)=(68°F-32)*5/9=20°C
         double celsius=(fahrenheit-32)*5/9;
-        System.out.println("Convert temp fahrenhite to celsius"+celsius);
-        System.out.println();
+        System.out.println("Convert temp fahrenhite to celsius"+celsius+"\n");
+
 
         //Calculate kelvin value ans store in variable
         //T(K)=(60°F +459.67)*5/9=288.71K
